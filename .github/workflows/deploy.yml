@@ -24,7 +24,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Web App
-        run: flutter build web --release --base-href /saber_livre/
+        run: flutter build web --release --base-href /PERDIDOS-achados/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
