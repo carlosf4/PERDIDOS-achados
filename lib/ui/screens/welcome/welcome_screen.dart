@@ -117,7 +117,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           ),
           const SizedBox(height: 40),
           Text(
-            "PEDIDOS\nACHADOS",
+            "PERDIDOS\nACHADOS",
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 48, letterSpacing: 4),
           ),
@@ -307,7 +307,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           ],
         ),
         const SizedBox(height: 32),
-        Text("© 2024 PEDIDOS/ACHADOS. Todos os direitos reservados.", style: TextStyle(color: AppColors.grey.withOpacity(0.5), fontSize: 10)),
+        Text("© 2024 PERDIDOS/ACHADOS. Todos os direitos reservados.", style: TextStyle(color: AppColors.grey.withOpacity(0.5), fontSize: 10)),
       ],
     );
   }

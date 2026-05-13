@@ -67,7 +67,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
               const SizedBox(height: 40),
               Text(
-                'PEDIDOS',
+                'PERDIDOS',
                 style: Theme.of(context).textTheme.displayLarge?.copyWith(
                   letterSpacing: 8,
                   color: AppColors.white,
